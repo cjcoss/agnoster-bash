@@ -418,13 +418,18 @@ build_prompt() {
     prompt_git 
     prompt_end
 
+    # cjcoss -- remove right prompt
     # render right prompt
-    prompt_right
+    #prompt_right
 
     CURRENT_BG=NONE
-    PR="$PR\n$(ansi_single $(text_effect reset))"
-    prompt_symbol
-    prompt_end
+    
+    # cjcoss - Remove \n and symbol to make single line prompt
+    #PR="$PR\n$(ansi_single $(text_effect reset))"
+    #prompt_symbol
+    #prompt_end
+    PR="$PR$(ansi_single $(text_effect reset))"
+
 }
 
 # from orig...
