@@ -1,6 +1,10 @@
 # agnoster-bash
 Agnoster Theme for Bash
 
+This is a fork of 
+https://github.com/maddeye/agnoster-bash.git
+that removes the right hand prompt, and changes the multi-line prompt to a single line prompt.
+
 agnoster's Theme - https://gist.github.com/3712874
 A Powerline-inspired theme for BASH
 
@@ -29,7 +33,7 @@ I recommend the following:
 ```
 cd $HOME
 mkdir -p .bash/themes/agnoster-bash
-git clone https://github.com/maddeye/agnoster-bash.git .bash/themes/agnoster-bash
+git clone https://github.com/cjcoss/agnoster-bash.git .bash/themes/agnoster-bash
 ```
 
 then add the following to your .bashrc:
