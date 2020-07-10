@@ -267,7 +267,7 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-    prompt_segment blue black $(pwd)
+    prompt_segment blue black "$(pwd)"
 }
 
 # Status:
